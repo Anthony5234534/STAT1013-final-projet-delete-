@@ -118,14 +118,7 @@ qusetions. They can probably test a human Intelligenzquotient.
 colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:233}"
 id="_Dziz3y-zq7G" outputId="37af0a5b-3541-4ead-f3e0-d28259dc7b05">
 
-``` python
-## load dataset 
 
-import pandas as pd
-
-df=pd.read_csv('https://storage.googleapis.com/kagglesdsdata/datasets/1647582/2762635/IQ1/data.csv?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20230223%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230223T150349Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=77f9a1426d9140dac44ab34f34e399119ce2a6370eaf3ce7e02bb6f71135e383c2100e7efb392a2e8eb23df0bd973bb4433cce0ffe210c89fbf3e240e455a026b8ce5e57209b3b3ed70a55a4a17a14fd13e502d966053ec6d40ebb2ba0a58b877af048a805cfca1677cd5561f041d772f094b0843f04cfe0cc372a76442d3e0e000672032f4189e275de930c31191d822e3936589f23b1ffe8b6c7076cf7aaa2d11cec57b6a43786948a8c150e9430d88dc2f4e28a5313a6414ad0ad8bd0da7dd84793acbb19cb8265d04209a84b4f859fd2b44b611bde75039010fa0c2b267b40eede82b6f95da65642a5408c6c06ae393efc647d6fb0c02d1ece53241c10e6')
-df.head(5)
-```
 
 <div class="output execute_result" execution_count="13">
 
