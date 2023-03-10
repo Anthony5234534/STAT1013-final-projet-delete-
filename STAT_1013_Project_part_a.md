@@ -67,7 +67,7 @@ qusetions. They can probably test a human Intelligenzquotient.
 
 <div class="cell markdown" id="y-AGMeiW3fYb">
 
-## Hypothesis
+# Hypothesis
 
 -   Tell us what your idea is and why you have chosen to pursue this
     idea.
@@ -110,7 +110,7 @@ qusetions. They can probably test a human Intelligenzquotient.
 
 <div class="cell markdown" id="PXDb_qD3ziHZ">
 
-## First 5 row of data set 
+# First 5 row of data set 
 
 </div>
 
@@ -153,15 +153,13 @@ id="_Dziz3y-zq7G" outputId="37af0a5b-3541-4ead-f3e0-d28259dc7b05">
 
 <div class="cell markdown" id="KCW49fLGHy2n">
 
--   Print first 5 records of each group, respectively.
-
 </div>
 
 <div class="cell code"
 colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
 id="ymMuyhJyHz1j" outputId="3ddd878e-08fe-4479-9b70-39dd14d90950">
 
-## First 5 records of G1 (male)
+# First 5 records of G1 (male)
 
 
 <div class="output execute_result" execution_count="14">
@@ -181,7 +179,7 @@ id="ymMuyhJyHz1j" outputId="3ddd878e-08fe-4479-9b70-39dd14d90950">
 colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
 id="IiqeiY26J--K" outputId="1513b482-bfc2-4cf6-b33c-e9c474c64195">
 
-## First 5 records of G2 (female)
+# First 5 records of G2 (female)
 
 <div class="output execute_result" execution_count="15">
 
@@ -202,7 +200,7 @@ id="RzS1rBmwOEuQ" outputId="c4426e16-4c91-4f2c-d33f-dfe322e9fc85">
 
 <div class="output stream stdout">
 
- ## data description 
+ # data description 
     number of male repondents=
     284
     number of female repondents=
@@ -220,7 +218,7 @@ id="RzS1rBmwOEuQ" outputId="c4426e16-4c91-4f2c-d33f-dfe322e9fc85">
     sample std of score on female respondents=
     4.450850328856901
 
- ## data visualization (score to gender)
+ # data visualization (score to gender)
 
 </div>
 
@@ -234,7 +232,7 @@ id="RzS1rBmwOEuQ" outputId="c4426e16-4c91-4f2c-d33f-dfe322e9fc85">
 
 <div class="cell markdown" id="H6F02842Qfvs">
   
-##Using the hypothesis test to test can it be concluded at alpha =0.05
+#Using the hypothesis test to test can it be concluded at alpha =0.05
 that the average score of male is higer than that of female ? u1=
 population mean of score of male ; u2= population mean of score of
 female
