@@ -110,7 +110,7 @@ qusetions. They can probably test a human Intelligenzquotient.
 
 <div class="cell markdown" id="PXDb_qD3ziHZ">
 
-## Prepare your dataset
+## First 5 row of data set 
 
 </div>
 
@@ -200,7 +200,6 @@ id="IiqeiY26J--K" outputId="1513b482-bfc2-4cf6-b33c-e9c474c64195">
 colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:645}"
 id="RzS1rBmwOEuQ" outputId="c4426e16-4c91-4f2c-d33f-dfe322e9fc85">
 
-## Any other data description and visualization you want to add.
 <div class="output stream stdout">
 
  ## data description 
@@ -221,7 +220,7 @@ id="RzS1rBmwOEuQ" outputId="c4426e16-4c91-4f2c-d33f-dfe322e9fc85">
     sample std of score on female respondents=
     4.450850328856901
 
- ##data visualization (score to gender)
+ ## data visualization (score to gender)
 
 </div>
 
@@ -235,7 +234,6 @@ id="RzS1rBmwOEuQ" outputId="c4426e16-4c91-4f2c-d33f-dfe322e9fc85">
 
 <div class="cell markdown" id="H6F02842Qfvs">
   
-## Open question, be flexible and no example can be provided.
 ##Using the hypothesis test to test can it be concluded at alpha =0.05
 that the average score of male is higer than that of female ? u1=
 population mean of score of male ; u2= population mean of score of
