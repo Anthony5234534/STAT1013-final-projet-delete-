@@ -161,10 +161,8 @@ id="_Dziz3y-zq7G" outputId="37af0a5b-3541-4ead-f3e0-d28259dc7b05">
 colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
 id="ymMuyhJyHz1j" outputId="3ddd878e-08fe-4479-9b70-39dd14d90950">
 
-``` python
 ## First 5 records of G1 (male)
-(df[df['gender'] == 1]['score']).head(5)
-```
+
 
 <div class="output execute_result" execution_count="14">
 
@@ -183,10 +181,7 @@ id="ymMuyhJyHz1j" outputId="3ddd878e-08fe-4479-9b70-39dd14d90950">
 colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
 id="IiqeiY26J--K" outputId="1513b482-bfc2-4cf6-b33c-e9c474c64195">
 
-``` python
 ## First 5 records of G2 (female)
-(df[df['gender'] == 2]['score']). head(5)
-```
 
 <div class="output execute_result" execution_count="15">
 
@@ -205,41 +200,10 @@ id="IiqeiY26J--K" outputId="1513b482-bfc2-4cf6-b33c-e9c474c64195">
 colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:645}"
 id="RzS1rBmwOEuQ" outputId="c4426e16-4c91-4f2c-d33f-dfe322e9fc85">
 
-``` python
 ## Any other data description and visualization you want to add.
-import matplotlib.pyplot as plt
-import seaborn as sns
-plt.rcParams['figure.figsize'] = [10, 5]
-sns.set()
-
-## data description 
-print('number of male repondents=')
-print(len(df[(df['gender']==1)]))
-print('number of female repondents=')
-print(len(df[(df['gender']==2)]))
-print('average score of male respondents=')
-print(df[df['gender']==1]['score'].mean())
-print('average score of female respondents=')
-print(df[df['gender']==2]['score'].mean())
-print('average score of male respondents=')
-print(df[df['gender']==1]['score'].mean())
-print('average score of female respondents=')
-print(df[df['gender']==2]['score'].mean())
-print('sample std of score on male respondents=')
-print(df[df['gender']==1]['score'].std())
-print('sample std of score on female respondents=')
-print(df[df['gender']==2]['score'].std())
-print()
-print('data description (score to gender)')
-sns.histplot (data=df, x='score', y='gender')
-plt.show()
-
-## Open question, be flexible and no example can be provided.
-## Using the hypothesis test to test can it be concluded at alpha =0.05 that the average score of male is higer than that of female ? 
-```
-
 <div class="output stream stdout">
 
+ ## data description 
     number of male repondents=
     284
     number of female repondents=
@@ -257,7 +221,7 @@ plt.show()
     sample std of score on female respondents=
     4.450850328856901
 
-    data description (score to gender)
+ ##data visualization (score to gender)
 
 </div>
 
@@ -270,7 +234,8 @@ plt.show()
 </div>
 
 <div class="cell markdown" id="H6F02842Qfvs">
-
+  
+## Open question, be flexible and no example can be provided.
 ##Using the hypothesis test to test can it be concluded at alpha =0.05
 that the average score of male is higer than that of female ? u1=
 population mean of score of male ; u2= population mean of score of
